@@ -16,6 +16,6 @@ def translate():
 def index():
     return "<h1>Welcome to our server !!</h1>"
 
-if __name__== "__main__":
+if __name__== '__main__':
     print("The App is running .")
-    app.run()
+    app.run(threaded=True, port=5000)
