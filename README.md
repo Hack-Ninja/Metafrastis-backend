@@ -4,3 +4,24 @@
     Backend For Metafrastis Web and App
   </strong>
 </div>
+## description 
+
+An free api to translate your text into any language you want.
+### demo using axios
+```
+const axios = require('axios')
+
+axios.post('https://metafrastis-backend.herokuapp.com/translate', {
+    text:"Good Morning",
+    lan:"bn"
+  })
+  .then(function (response) {
+    console.log(response);
+  })
+  
+```
+
+### response demo
+```
+সুপ্রভাত
+```
